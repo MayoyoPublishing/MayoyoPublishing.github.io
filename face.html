@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<style>
+.item {grid-area: header;}
+.item0 {grid-area: exp;}
+.item1 { grid-area: img1; }
+.item2 { grid-area: img2; }
+.item3 { grid-area: img3; }
+.item4 { grid-area: img4; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'exp img1 img1 img1'
+    'exp img2 img2 img2'
+    'exp img3 img3 img3'
+    'exp img4 img4 img4';
+  gap:5px;
+  background-color: #f9e653;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white; 
+  font-family: sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+img{
+ width: 100%;
+ padding: 10px 0;
+}
+
+span{
+  color: #81a7d7;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item" style="padding: 5px">
+  	<MARQUEE behavior="scroll" scrollamount="20" style="font-size: 120px; color: #81a7d7;">얼굴들 2020 * Faces 2020</MARQUEE>
+  </div>
+  <div class="item0" style="color: #81a7d7; text-align: left;">
+  	<span style="position: fixed; width:28%;">
+	  	2020<br>
+	  	8000won<br>
+	  	67x94 mm<br>
+	  	32p<br><br>
+	  	무심코 지나치는 사물들 중에 32개의 숨겨진 얼굴을 발견하고 그들의 증명사진을 찍어주었습니다. 사진은 한국 사진관에서 흔히 사용되는 봉투에 담겨있습니다.<br><br>
+	  	We found 32 faces hidden in familiar and banal objects and took their ID photo. The typical envelope of a typical Korean photo studio is used as a binding.
+	  	<br><br>
+	  	<a href="javascript:history.back()"><img src="index/logo2.gif" style="width: 10%; padding: 0;"></a>
+  	</span>
+  	<span style="color: white; width:30%;">
+	  	2020<br>
+	  	8000won<br>
+	  	67x94 mm<br>
+	  	32p<br><br>
+	  	무심코 지나치는 사물들 중에 32개의 숨겨진 얼굴을 발견하고 그들의 증명사진을 찍어주었습니다. 사진은 한국 사진관에서 흔히 사용되는 봉투에 담겨있습니다.<br><br>
+	  	We found 32 faces hidden in familiar and banal objects and took their ID photo. The typical envelope of a typical Korean photo studio is used as a binding.
+  	</span>
+  </div>
+  <div class="item1">
+  	<img src="faces2020/1-12.jpg">
+  </div>
+  <div class="item2">
+  	<img src="faces2020/1-22.jpg">
+  </div>
+  <div class="item3">
+  	<img src="faces2020/1-32.jpg">
+  </div>
+  <div class="item4">
+  	<img src="faces2020/1-42.jpg">
+  </div>
+</div>
+
+<!-- <a href="javascript:history.back()" style="width: 3%; position: fixed; top: 92%; right: 2%;"><img src="logo2.gif" ></a> -->
+
+</body>
+</html>
+
+

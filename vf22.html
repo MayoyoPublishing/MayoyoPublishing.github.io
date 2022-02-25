@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<style>
+.item {grid-area: header;}
+.item0 {grid-area: exp;}
+.item1 { grid-area: img1; }
+.item2 { grid-area: img2; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'exp img1 img1 img1'
+    'exp img2 img2 img2';
+  gap:5px;
+  background-color: #f9e653;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white; 
+  font-family: sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+img{
+ width: 100%;
+ padding: 10px 0;
+}
+
+span{
+  color: #81a7d7;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item" style="padding: 5px">
+  	<MARQUEE behavior="scroll" scrollamount="20" style="font-size: 120px; color: #81a7d7;">가상친구(Photo) * Virtual Friend(Photo)</MARQUEE>
+  </div>
+  <div class="item0" style="color: #81a7d7; text-align: left;">
+  	<span style="position: fixed; width:28%;">
+	  	2022<br>
+	  	2000won <br>
+	  	101 x 148 mm<br>
+      엽서 * Postcard<br><br>
+	  	어릴적 함께 놀았지만 크면서 사라진 가상친구에 관한 작업입니다. 김요요는 그림과 사진을 통해 그들을 회생시켜 동심으로 돌아가고자 했습니다.<br><br>
+      This is about our virtual friend who played with us, but lost as we grew up. Through drawing and photos, Kim Yoyo tried to revive them and remind our inner child.
+	  	<br><br>
+	  	<a href="javascript:history.back()"><img src="index/logo2.gif" style="width: 10%; padding: 0;"></a>
+  	</span>
+  	<span style="color: white; width:30%;">
+	  	2022<br>
+      2000won <br>
+      101 x 148 mm<br>
+      엽서 * Postcar<br><br>
+      어릴적 함께 놀았지만 크면서 사라진 가상친구에 관한 작업입니다. 김요요는 그림과 사진을 통해 그들을 회생시켜 동심으로 돌아가고자 했습니다.<br><br>
+      This is about our virtual friend who played with us, but lost as we grew up. Through drawing and photos, Kim Yoyo tried to revive them and remind our inner child.
+  	</span>
+  </div>
+  <div class="item1">
+  	<img src="vf22/1-1.jpg">
+  </div>
+  <div class="item2">
+  	<img src="vf22/1-2.jpg">
+  </div>
+</div>
+
+<!-- <a href="javascript:history.back()" style="width: 3%; position: fixed; top: 92%; right: 2%;"><img src="logo2.gif" ></a> -->
+
+</body>
+</html>
+
+
