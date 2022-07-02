@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<style>
+.item {grid-area: header;}
+.item0 {grid-area: exp;}
+.item1 { grid-area: img1; }
+.item2 { grid-area: img2; }
+.item3 { grid-area: img3; }
+.item4 { grid-area: img4; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'exp img1 img1 img1'
+    'exp img2 img2 img2'
+    'exp img3 img3 img3'
+    'exp img4 img4 img4';
+  gap:5px;
+  background-color: #f9e653;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white; 
+  font-family: sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+img{
+ width: 100%;
+ padding: 10px 0;
+}
+
+span{
+  color: #81a7d7;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item" style="padding: 5px">
+  	<MARQUEE behavior="scroll" scrollamount="20" style="font-size: 120px; color: #81a7d7;">도트고니아 * Dotgonia</MARQUEE>
+  </div>
+  <div class="item0" style="color: #81a7d7; text-align: left;">
+  	<span style="position: fixed; width:28%;">
+	  	2022<br>
+	  	4000won <br>
+     	24p<br>
+	  	108 x 177 mm<br>
+	  	중철 책자 * Saddle stitch book<br><br>
+	  	베고니아 마큘라타라는 식물의 미시적 세계를 원이라는 요소로 바라보았습니다.<br><br>
+      This book is an exploration about the microscopic world of plants called begonia maculata with the elements of circles. 
+	  	<br><br>
+	  	<a href="javascript:history.back()"><img src="index/logo2.gif" style="width: 10%; padding: 0;"></a>
+  	</span>
+  	<span style="color: white; width:30%;">
+	  	2022<br>
+      4000won <br>
+      24p<br>
+      108 x 177 mm<br>
+      중철 책자 * Saddle stitch book<br><br>
+      베고니아 마큘라타라는 식물의 미시적 세계를 원이라는 요소로 바라보았습니다.<br><br>
+      This book is an exploration about the microscopic world of plants called begonia maculata with the elements of circles. 
+  	</span>
+  </div>
+  <div class="item1">
+  	<img src="dote/dote1.jpg">
+  </div>
+  <div class="item2">
+  	<img src="dote/dote2.jpg">
+  </div>
+  <div class="item3">
+  	<img src="dote/dote3.jpg">
+  </div>
+  <div class="item4">
+  	<img src="dote/dote4.jpg">
+  </div>
+</div>
+
+<!-- <a href="javascript:history.back()" style="width: 3%; position: fixed; top: 92%; right: 2%;"><img src="logo2.gif" ></a> -->
+
+</body>
+</html>
+
+
